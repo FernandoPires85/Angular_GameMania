@@ -1,0 +1,17 @@
+
+<main>
+    <section class="area-login">
+        <div class="login">
+            <div>
+                <img src="/assets/img/logo.png" alt="logo game mania">
+            </div>
+
+            <form (ngSubmit)="receberDados()">
+                <input type="email" name="email" placeholder="email@email.com" autofocus [(ngModel)]="userModel.email">
+                <input type="password" name="password" id="senha" placeholder="Sua senha"[(ngModel)]="userModel.password">
+                <input id="botão-enviar" type="submit" value="Fazer Login">
+                <p>Ainda não tem uma conta? <a href="">Criar conta</a></p>
+            </form>
+        </div>
+    </section>
+</main>

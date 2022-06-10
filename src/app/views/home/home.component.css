@@ -1,0 +1,214 @@
+
+
+
+.banner{
+    height: 300px;
+    background-image: url(/assets/img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.posicionamento-banner{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-banner{
+    height: 150px;
+    align-items: center;
+    width: 495px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+}
+
+.conteudo-banner h1{
+    font-family:"Titillium web";
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.conteudo-banner{
+    font-family:"Roboto";
+    font-size: 25px;
+
+}
+
+.consoles{
+    height: 40px;
+    background-color: #1E1C21;
+}
+
+.consoles a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.posicionamento-consoles{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.destaques a{
+    justify-content: center;
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.conteudo-destaques{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+
+.posicionamento-destaques{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.parceiros{
+    background-color: #1E1C21;
+    height: 100%;
+    width: 100%;
+}
+
+.posicionamento-parceiros{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: w;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: visible;
+}
+
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    border-radius: 10px;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #252A34;
+    color: aliceblue;
+    padding-left: 10px;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.login img{
+    width: 100px;
+    height: auto;
+}
+
+.input::placeholder{
+    color: aliceblue;
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #5568fe;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    color: aliceblue;
+}
+ 
+a{
+    color: #5568FE;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .cabecalho{
+        position: relative;
+    }
+
+    .icone-menu{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+
+        position: absolute;
+        top: 80px;
+        right: 0px;
+
+        height: 400px;
+        
+        flex-direction: column;
+        background-color: #1E1C21;
+        align-items: center;
+    }
+
+    .menu-ativo {
+        display: flex;
+    }
+
+    #barras{
+        display: inline-block;
+    }
+}
+
+
+
